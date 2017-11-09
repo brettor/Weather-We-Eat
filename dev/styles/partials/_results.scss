@@ -1,10 +1,17 @@
 
 #resultsContainer {
-	height: auto;
-	background-color: #796465;
-	background-image: url('../assets/arches.png');
-	background-position: center;
-	text-shadow: 0 0 10px $darkerBrown;
+	display: none;
+}
+
+section{
+	.open{
+		display: block;
+		height: auto;
+		background-color: #796465;
+		background-image: url('../assets/arches.png');
+		background-position: center;
+		text-shadow: 0 0 10px $darkerBrown;
+	}
 }
 
 .resultsWrapper {

@@ -162,6 +162,7 @@ app.display = (res) => {
 	$('#weatherContainer').append(app.currentWeather);
 	$('#weatherContainer').append(`<p>${app.currentTemp}&deg;C</p>`);
 	$('#recipeContainer').empty();
+	$('#resultsContainer').addClass('open');
 	$('.savedRecipes').empty();
 	let selectedImage = $('<img>').attr('src', res.images[0].hostedLargeUrl);
 	let selectedName = $('<h2>').text(res.name);
